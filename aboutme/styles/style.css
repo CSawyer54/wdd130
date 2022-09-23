@@ -1,0 +1,11 @@
+.awesomeHeading{
+    color: navy;
+    background-color: rgba(234, 153, 13, 0.333);
+    text-align: left;
+    margin:0;
+    font-family: 'Georgia', 'Times New Roman', 'Times, serif';
+    padding: 10px;
+    display: block;
+    border: 3px solid black;
+    border-radius: 1px;
+  }
