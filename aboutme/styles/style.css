@@ -9,3 +9,9 @@
     border: 3px solid black;
     border-radius: 1px;
   }
+
+  .center {
+    text-align: center;
+    background-color: gray;
+  }
+    
