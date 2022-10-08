@@ -1,0 +1,10 @@
+body{
+    background-color: pink;
+}
+.education{
+    color:white;
+    text-align: center;
+}
+.education:hover{
+    color:black;
+}
