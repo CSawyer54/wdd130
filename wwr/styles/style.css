@@ -3,6 +3,7 @@
 #content{
     max-width: 1600px;
     margin: 0 auto;
+    overflow-x: hidden;
 }
 
 .icon {
@@ -229,6 +230,29 @@ footer p a:hover {
 footer .social img{
     padding-top: 15px;
 }
+/* Page 2 | How To Prepare */
+
+.prepare{
+    width: 50%;
+    float: left;
+}
+#page2{
+    background-color: #00A7E1;
+    height: 500px;
+    width: 100%;
+    margin-left:3%;
+}
+.msg2{
+    background-color: #DA4167;
+    padding: 35px;
+    box-shadow: 5px 5px 10px #6f7364;
+    width: 550px;
+    display:block;
+    margin-left: 54%;
+    margin-top: 5%;
+    margin-right: 700px;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -261,10 +285,20 @@ footer .social img{
     #background {
         display: none;
     }
-    .mountains, .msg {
+    .mountains, .prepare, .msg {
         width: 80%;
         display: block;
         margin: 0 auto;
+    }
+    .msg2 {
+        width: 50%;
+        display: block;
+        margin: 10%;
+        margin-bottom: 26px;
+    }
+    #page2{
+        height: 50%;
+        margin: 10%;
     }
     footer {
         margin-top: 25px;
