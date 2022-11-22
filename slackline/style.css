@@ -80,7 +80,7 @@ main section img{
     box-sizing: border-box;
 }
 #background{
-    height: 100px;
+    height: 0px;
     background-color: #B9C0DA ;
 }
 body {
