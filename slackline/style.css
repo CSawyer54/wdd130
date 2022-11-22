@@ -183,6 +183,9 @@ footer .social img{
 /* Page 3 | Testimonials */
 
 @media screen and (max-width: 900px) {
+    header{
+        height:auto;
+    }
     #hero {
         display: block;
         height: auto;
