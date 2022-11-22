@@ -76,7 +76,7 @@ main section img{
     box-sizing: border-box;
 }
 #background{
-    height: 0px;
+    height: 50px;
     background-color: #B9C0DA ;
 }
 body {
@@ -183,7 +183,7 @@ footer .social img{
 /* Page 3 | Testimonials */
 
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero {
         display: block;
         height: auto;
     }
