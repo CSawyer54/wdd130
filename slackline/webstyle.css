@@ -97,3 +97,54 @@ body, html {
     padding: 20px;
     text-align: center;
   }
+  @media screen and (max-width: 900px) {
+    header{
+        height:auto;
+        display:block;
+    }
+    #hero {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    #background {
+        display: none;
+    }
+    .Highline,.Beach, .bird,.Chelsea,.Chase {
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    .msg, .msg2,.msg3,.msg4,.msg5 {
+        width: 80%;
+        display: block;
+        margin: 5%;
+        margin-bottom: 26px;
+    }
+    #page2{
+        height: 50%;
+        margin: 10%;
+    }
+    footer {
+        margin-top: 25px;
+    }
+}
