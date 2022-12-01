@@ -31,12 +31,12 @@ nav a{
     box-shadow: 5px 5px 10px black;
 }
 #hero {
-    display:grid;
+    display: grid;
     grid-template-columns: repeat(5, 1fr);
     margin-top: -100px;
 }
 #hero-img{
-    width:100%;
+    width: 100%;
 }
 #hero-box{
     grid-column: 1/7;
@@ -135,11 +135,11 @@ footer{
     background-color: #07DAA1;
     Color:black;
     padding: 25px 50px;
-    margin-top: 300px;
+    margin-top: 30%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    border:1px solid rgba(0, 0, 0, 0.278);
+    border: 1px solid rgba(0, 0, 0, 0.278);
 }
 .home-title{
     color: white;
@@ -180,7 +180,7 @@ footer .social img{
     margin:0 auto;
     box-shadow: 5px 5px 10px black;
 }
-/* Page 3 | Testimonials */
+/* Page 4 | Web Component Exercise */
 
 @media screen and (max-width: 900px) {
     header{
